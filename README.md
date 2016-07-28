@@ -1,6 +1,10 @@
 # QRCodeDemo 扫码
-首先感谢`MrlLee`[生成二维码、扫描二维码、识别图片二维码等](http://www.apkbus.com/forum.php?mod=viewthread&tid=258587&highlight=二维码)
+首先感谢`MrlLee`的文章[《生成二维码、扫描二维码、识别图片二维码等》](http://www.apkbus.com/forum.php?mod=viewthread&tid=258587&highlight=二维码)
 本项目是依据链接中的项目改的。去掉了样式，帮初学者排除了其他干扰，只展示功能，代码更简洁。
+---
+
+### 使用方法
+将项目中的qrcode作为library导入到你的项目中：file -> new -> import mudule 然后选择qrcode文件夹导入
 
 ---
 
@@ -54,4 +58,3 @@ qrcv_isScanLineReverse | 扫描线是否来回移动 | true
 qrcv_isShowDefaultGridScanLineDrawable | 是否显示默认的网格图片扫描线 | false
 qrcv_customGridScanLineDrawable | 扫描线的网格图片资源 | nulll
 
-晚上回去继续写...
